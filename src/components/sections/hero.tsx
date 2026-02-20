@@ -5,8 +5,8 @@ import { Container } from "@/components/layout/container";
 
 export function Hero() {
   return (
-    <section className="min-h-screen bg-background text-foreground">
-      <Container className="flex min-h-screen flex-col items-start justify-center gap-8 py-24">
+    <section className="bg-background text-foreground">
+      <Container className="flex min-h-[calc(100vh-4rem)] flex-col items-start justify-center gap-8 py-24">
         <div className="flex flex-col gap-4">
           <span className="text-sm font-medium uppercase tracking-widest text-zinc-500">
             Nextjs Boilerplate Lv1

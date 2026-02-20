@@ -17,6 +17,16 @@ lib/ # helpers, utils
 styles/ # global css, theme tokens
 app/ # Next.js routes
 
+## Layout
+- `Header` → `src/components/layout/header.tsx`
+- `Footer` → `src/components/layout/footer.tsx`
+- `Container` → `src/components/layout/container.tsx`
+
+## Sections
+- `Hero` → `src/components/sections/hero.tsx`
+- `Features` → `src/components/sections/features.tsx`
+- `Home` page menggabungkan `<Hero />` + `<Features />`
+
 
 
 ## Getting Started
@@ -48,11 +58,13 @@ export default function Example() {
 Sections
 Hero → hero.tsx
 Home page menggunakan <Hero />
+
 Konvensi
 ui/ = komponen atomik & reusable
 layout/ = struktur layout dasar
 sections/ = blok halaman
 gunakan alias @/ untuk import dari src/
+
 Next Steps (Opsional)
 tambah komponen UI lain (Card, Badge, Modal)
 tambah Header dan Footer
