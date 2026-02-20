@@ -55,6 +55,8 @@ export default function Example() {
     </div>
   );
 }
+
+
 Sections
 Hero → hero.tsx
 Home page menggunakan <Hero />
