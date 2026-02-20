@@ -69,5 +69,6 @@ gunakan alias @/ untuk import dari src/
 
 Next Steps (Opsional)
 tambah komponen UI lain (Card, Badge, Modal)
-tambah Header dan Footer
+tambah Header dan Footer 
+tambahan lanjut ke Lv2 (design system ringan + dark mode + component variants yang lebih lengkap).
 setup linting/formatting rule tim
